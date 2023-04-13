@@ -1,0 +1,26 @@
+/*Cheyenne Lowber
+April 12, 2023*/
+
+.intro {
+    font-size: 24px;
+    color: darkblue;
+    padding: 20px 60px;
+    text-align: center;
+}
+
+.highlight {
+    background-color: lightgoldenrodyellow;
+    color: black;
+    padding: 5px;
+}
+
+.alert {
+    background: red;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.alert.blue {
+    background:blue;
+}
