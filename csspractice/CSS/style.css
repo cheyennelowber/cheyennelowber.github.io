@@ -1,0 +1,23 @@
+/*Cheyenne Lowber
+April 12, 2023*/
+header {
+    background-color: lightblue;
+}
+footer {
+    background-color: lightblue;
+}
+p, ul, li {
+    font-size: 20px;
+}
+a:hover {
+    background-color: red;
+}
+a:link {
+    color: green;
+}
+a:visited{
+    color: yellow;
+}
+a:active{
+    color: purple;
+}
