@@ -1,0 +1,61 @@
+/*Cheyenne Lowber
+April 14, 2023*/
+
+
+#outerwrapper {
+
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+.floatleft { 
+	float: left;
+	margin-right: 3%;
+}
+
+.floatright {
+	float: right;
+	margin-left: 3%;
+}
+
+main, footer { 
+	clear: both;
+}
+
+body {
+	background-color: #B8D1EB;
+	color: #000000;
+	font-family: "Times New Roman, Times, Serif";
+}
+
+main {
+	background-color: #C5A98B;
+	padding: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+main ul {
+	list-style-image: url(../image/tomato.png);
+}
+
+h1 {
+	font-family: 'Brush Script MT';
+	font-size: 3em;
+}
+
+h2 {
+	font-family: 'Brush Script MT';
+	font-weight: normal;
+	font-style: italic;
+}
+
+footer {
+	font-size: .75em;
+	text-align: center;
+	background-color:hsl(41, 47%, 43%);
+	padding: 10px 0px 10px;
+}
