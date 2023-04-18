@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<!-- Cheyenne Lowber
+     April 17, 2023 -->
+<html lang="en">
+<head>
+    <title>Contact Form</title>
+    <meta name="author" content="Cheyenne Lowber" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Cheyenne Lowber web developer Boise Idaho" />
+    <meta name="keywords" content="client-side server-side C# HTML CSS JavaScript" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        div {
+            margin: 10px;
+        }
+
+        label {
+            margin-right: 15px;
+            width: 150px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <form action="mailto:cheyennelowber@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+        <!-- Group Fields Together, page 104 -->
+        <fieldset>
+            <legend>How do I contact you?</legend>
+            <!-- Company Select Box, page 97 -->
+            <div>
+                <label for="company">Company:</label>
+                <input type="text" name="company" id="company"/>
+            </div>
+
+            <!-- Person to Contact Select Box, page 97 -->
+            <div>
+                <label for="contact">Contact:</label>
+                <input type="text" name="contact" id="contact"/>
+            </div>
+            <!-- Email, textbook file rental.html -->	
+            <!--Video 9.9 Building and Testing a Valid Form-->	
+            <div>
+                <label for="email-address">Email Address:</label>
+                <input type="email" name="email_address" id="email-address" placeholder="Email Address" />
+                
+            </div>
+                
+            <!-- Phone, textbook file rental.html-->
+            <!--Video 9.9 Building and Testing a Valid Form-->
+            <div>
+                <label for="phone_number">Telephone:</label>
+                <input type="tel" name="phone_number" id="phone_number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000"/>
+            </div>
+        </fieldset>
+
+        <!-- Group Fields Together, page 104 -->
+        <fieldset>
+            <legend>What opportunities are available at your company?</legend>
+            <!-- Select Box, page 98 -->
+
+            <!-- Radio Buttons, page 99 -->
+            <div>
+                <label for="position-type">Type of Position:</label>
+                <select name="position-type" id="position-type">
+                    <option value="Internship">Internship</option>
+                    <option value="Full-Time">Full-Time</option>
+                    <option value="Part-Time">Part-Time</option>
+                    <option value="Temporary">Temporary</option>
+                    <option value="Contract">Contract</option>
+                    <option value="On Call">On Call</option>
+                </select>
+            </div>
+            <div>
+                <p>How did you find me?</p>
+                <input type="radio" name="find-me" id="LinkedIn" value="LinkedIn" />
+                <label for="linkedin">LinkedIn</label>
+                <input type="radio" name="find-me" id="JobFair" value="JobFair" /> 
+                <label for="JobFair">Job Fair</label>
+                <input type="radio" name="find-me" id="CWI Corporate Partner" value="CWI Corporate Partner" /> 
+                <label for="cwi corporate partner">CWI Corporate Partner</label>
+            </div>
+            <div>
+                <textarea id="interview prep" name="interview prep" rows="10" cols="100" placeholder="How should I prepare for the interview?"></textarea>
+                <!-- Text Area, textbook file code-9-1.html -->	
+
+            </div>
+        </fieldset>
+		<input type="submit" id="submit" value="Submit" class="btn">
+     </form>
+</body>
+</html>
