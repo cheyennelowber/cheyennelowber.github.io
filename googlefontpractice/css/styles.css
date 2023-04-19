@@ -1,0 +1,9 @@
+/* Practice CustomFonts Style Sheet */
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,500;1,200&display=swap');
+
+.websafe{
+    font-family: 'Chivo Mono', monospace;   
+}
+.google {
+    font-family: 'Chivo Mono', monospace;
+}
