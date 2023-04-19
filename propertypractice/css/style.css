@@ -1,0 +1,34 @@
+/*Cheyenne Lowber
+April 18, 2023*/
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+header {
+    font-family: 'Anton', "Times New Roman", sans-serif;
+    background-color: #A8D6EB;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+#value{
+    background-color: #AEF0CC;
+}
+
+#example{
+    background-color: #E3ADB9;
+    margin-top: 10px;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+#overline {
+    text-decoration: overline;
+}
+
+#line-through {
+    text-decoration: line-through;
+}
