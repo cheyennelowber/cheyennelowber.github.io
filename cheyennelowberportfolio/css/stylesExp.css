@@ -1,0 +1,57 @@
+/*Cheyenne Lowber*/
+
+body {
+        background: rgb(248, 210, 217);
+        color: #333333;
+        font-size: 1.25rem;
+}
+
+.projectBox {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    width: 31%;
+}
+
+.projectSamples {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.projectBox h4.sampleType {
+    background: rgb(223, 76, 125);
+    color: #FFFFFF;
+    padding: 15px
+}
+
+.projectBox h3.title {
+    color: rgb(223, 76, 125);
+    background: #00008833;
+    padding: 20px;
+}
+
+
+.projectBox img {
+    margin-bottom: 20px;
+}
+
+.projectBox a.button {
+    display: block;
+    width: 60%;
+    margin: 10px auto;
+    color: #FFFFFF;
+    background: #00008833;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 3px;
+}
+footer {
+    clear: left;
+}
+
+
+    
