@@ -1,0 +1,69 @@
+
+/*Cheyenne Lowber
+April 23, 2023*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@font-face {
+	font-family: 'roboto';
+	src: url('../fonts/roboto-black-webfont.woff') format('woff'),
+		 url('../fonts/roboto-black-webfont.woff2') format('woff2');
+	font-style: italic;
+	font-size: 2em;
+}
+	 
+#outerwrapper {	
+	border-radius: 15%;
+	background: rgba(243,205,170, 0.4);
+	width: 70%;
+	margin: auto;
+}
+
+
+html {
+	background-image: url('../images/jewelry.jpg');
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #cccccc;
+}
+
+footer {
+	font-size: 1em;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+main {
+	background: linear-gradient(#FFFFFF, #F0F9E6);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1.25em;
+	font-family:'Segoe UI', Tahoma, serif;
+}
+
+#necklace {
+	float: left;
+	border-radius: 50%;
+}
+
+.addrightmargin {
+	margin-right: 10%;
+}
+
+nav ul li {
+	list-style-type: none;
+	font-size: 1.5em;
+	float: none;
+}
+
+.google {
+	font-family:'pacifico', "courier", monospace;
+	font-size: 4em;
+}
+
+.websafe {
+	font-family: 'roboto', "courier", monospace;
+}
