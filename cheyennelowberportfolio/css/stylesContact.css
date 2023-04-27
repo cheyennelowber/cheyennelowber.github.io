@@ -1,0 +1,45 @@
+/*Cheyenne Lowber*/
+
+
+form {
+    font-size: 1em;
+    font-family:'Segoe UI', Tahoma, serif;
+}
+
+main {
+    background: linear-gradient(#f9f5f5, #bdbdc433);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+}
+
+div {
+    margin: 10px;
+}
+
+label {
+    margin-right: 15px;
+    width: 150px;
+    display: inline-block;
+}
+
+input {
+    font-size: 1.25rem;
+    padding: 5px;
+    border: 1px solid #00008833;
+    transition: all 0.5s ease;
+}
+
+input:focus {
+    font-size: 1.35rem;
+    padding: 10px;
+    border: 2px solid #e83f64;
+    outline: none;
+}
+
+.contact {
+    text-align: center;
+    font-size: 1em;
+    font-family:'Segoe UI', Tahoma, serif;
+    padding-bottom: 10px;
+}

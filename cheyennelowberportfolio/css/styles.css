@@ -1,0 +1,91 @@
+/*Cheyenne Lowber
+April 26, 2023*/
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+@font-face {
+    font-family: 'candal';
+    src: url('../fonts/candal-webfont.woff') format('woff'),
+         url('../fonts/candal-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.google {
+    font-family: 'permanent marker', "courier", monospace;
+    font-size: 3em;
+    color:#e83f64;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+
+}
+
+#header-wrapper {
+    display: table;
+}
+
+html {
+    background: #fddcdb;
+}
+
+.logo {
+    display: table-cell;
+    float: left;
+}
+
+h2 {
+    font-family: 'candal', "courier", monospace;
+    font-size: 2em;
+    color:#e83f64;
+}
+
+h3 {
+    font-family: 'candal', "courier", monospace;
+    font-size: 1.5em;
+    color:#e83f64;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.topnav {
+    background-color: #e83f64;
+    overflow: hidden;
+    font-size: 1em;
+    font-family:'Segoe UI', Tahoma, serif;
+}
+
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color:#fddcdb;
+    color: #ffffff;
+}
+
+
+.active {
+    background-color:#ffffff;
+    color: #e83f64 !important;
+}
+
+footer {
+    text-align: center;
+    color:  #e83f64;
+    font-size: 1em;
+    font-family:'Segoe UI', Tahoma, serif;
+    padding-bottom: 10px;
+}
+
