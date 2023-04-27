@@ -1,0 +1,21 @@
+/*Cheyenne Lowber*/
+
+.contact {
+    text-align: center;
+    color:  #e83f64;
+    font-size: 1em;
+    font-family:'Segoe UI', Tahoma, serif;
+    padding-bottom: 10px;
+}
+
+form {
+    font-size: 1em;
+    font-family:'Segoe UI', Tahoma, serif;
+}
+
+main {
+    background: linear-gradient(#f9f5f5, #bdbdc433);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+}
