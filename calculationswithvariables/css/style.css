@@ -1,0 +1,16 @@
+/*Cheyenne Lowber
+May 01, 2023*/
+
+:root {
+    --fontSize: 1.25em;
+    --fontSizeHeading: calc(var(
+        --fontSize) * 3 );
+}
+
+body {
+    font-size: var(--fontSize);
+}
+
+h1 {
+    font-size: var(--fontSizeHeading);
+}
