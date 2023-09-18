@@ -1,0 +1,42 @@
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+}
+h1 { 
+    font-size: 150%;
+}
+h2 {
+    font-size: 120%;
+    padding: .25em 0 .25em 25px;
+    cursor: pointer;
+    background: lightpink;
+}
+h2.minus {
+    background: teal;
+}
+a {
+    color: white;
+    text-decoration: none; 
+}
+a:focus, a:hover { 
+	color: rgb(255, 0, 179); 
+}
+
+p {
+    padding-left: 45px;
+    color:white;
+}
+
+.answer {
+    display: none;
+}
+
+/* div.open {
+    color: white;
+    display: block;
+} */
+ul {
+    padding-left: 45px;
+    color: white;
+}

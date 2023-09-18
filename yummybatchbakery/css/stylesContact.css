@@ -1,0 +1,46 @@
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin: 0 auto;
+    width: 640px;
+    border: 3px solid hotpink;
+    padding: 0 2em 1em;
+    color: hotpink;
+}
+h1 {
+    color: hotpink;
+    text-align: center;
+}
+div {
+    margin-bottom: 1em;
+}
+label {
+    display: inline-block;
+    width: 11em;
+    text-align: right;
+    vertical-align: top;
+    color: hotpink;
+    font-weight: bold;
+}
+input, select, textarea {
+    margin-left: 1em;
+    margin-right: 0.5em;
+    color: hotpink;
+}
+select { 
+    width: 13em; 
+}
+textarea {
+    height: 5em;
+    width: 20em;
+}
+span {
+    color: teal;
+    vertical-align: top;
+}
+.messages {
+    border: 3px solid teal;
+    color: teal;
+    padding: 2em;
+    margin-bottom: 2em;
+}

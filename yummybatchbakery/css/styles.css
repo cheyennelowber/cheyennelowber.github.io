@@ -1,0 +1,41 @@
+#header-wrapper {
+    display: table;
+}
+
+html {
+    background: black;
+}
+
+.logo {
+    display: table-cell;
+    float: left;
+}
+
+
+.topnav {
+    background-color: teal;
+    overflow: hidden;
+    font-size: 1em;
+    font-family:'Segoe UI', Tahoma, serif;
+}
+
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: black;
+    color: #ffffff;
+}
+
+
+.active {
+    background-color:#ffffff;
+    color: #e83f64 !important;
+}
+
